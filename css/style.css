@@ -5,17 +5,57 @@
     background-size: contain;
     height: 100px;
 }
-img{
+.booleaner{
     height: 100px;
     width: 200px;
-    align: left bottom;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    
+}
+
+.photo{
+    margin: 10px;
+    height: 410px;
+    width: 1400px;
 }
 
 .photo1.photo2{
-    height: 600px;
-    width: 600px;
-}   
+    width: inherit;
+} 
+h1{
+    margin-bottom: 0px;
+}
+
+
+
+.data{
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.author{
+    color: blue;
+}
+
+.ulist{
+    padding-left: 15px;
+}
 
 .lorem{
     background-color: yellow;
 }
+
+thead{
+    background-color: lightskyblue;
+    color: white;
+    
+}
+table {
+    table-layout: fixed;
+    width: 1400px;
+    }
+
+    .interest{
+        color: grey;
+    }
